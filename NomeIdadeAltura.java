@@ -5,7 +5,7 @@ public class MyClass {
      Scanner scanner = new Scanner(System.in);
       
      System.out.println("Escreva seu nome: ");
-     String nome = scanner.next();
+     String nome = scanner.nextLine();
      
      System.out.println("Escreva sua idade: ");
      int idade = scanner.nextInt();
